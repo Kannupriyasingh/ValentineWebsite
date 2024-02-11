@@ -1,0 +1,107 @@
+@keyframes example {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+body {
+    background-color: rgba(207, 232, 241, 0.219);
+}
+  
+h1 {
+    color: navy;
+    margin-left: 20px;
+    text-align: center;
+}
+
+div {
+    color: red;
+    align-content: center;
+    font-size: xx-large;
+    font-style: oblique;
+    /* text-decoration: underline; */
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid pink;
+    padding: 10px;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.main_content {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.name_input {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    width: 180px;
+    height: 20px;
+}
+
+input {
+    color: palevioletred;
+    align-content: center;
+    text-align: center;
+    font-size: medium;
+    font-style: oblique;
+    font-weight: bold;
+    caret-color: rgb(200, 40, 187);
+    caret-shape: block;
+}
+
+
+ div {
+    text-align: center;
+    margin-top: 50px; /* Add margin for spacing */
+  }
+
+  /* Style for the buttons */
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    border: none;
+    margin: 0 10px; /* Add margin between buttons */
+  }
+
+  /* Style for "Yes" button */
+  #yesButton {
+    background-color: #28a745;
+    color: #fff;
+  }
+
+  /* Style for "No" button */
+  #noButton {
+    background-color: #dc3545;
+    color: #fff;
+  }
+
+  /* Hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+
+#gif {
+    width: 40rem;
+    height: 20rem;
+}
